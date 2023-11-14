@@ -15,3 +15,7 @@ The goal of this project is to use Alternating Least Squares (ALS) in Spark to r
    |- config.py
 |- README.md
 </pre>
+
+## Implementation
+
+An ALS model was succesfully created in two stages. Firstly, hyperparameters were tuned using a local implementation of the model with a subset of the training data. Secondly, the final model was trained using all available data using the Google Cloud platform.
